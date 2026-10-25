@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ryan G. Arias Jr — IT student exploring web development and cybersecurity.">
+  <title>Ryan G. Arias Jr. | Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress-track"><span id="scroll-progress"></span></div>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ryan Arias home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">RYAN ARIAS</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="status-dot"></span> STUDENT PORTFOLIO / 2026</p>
+        <h1 class="reveal">Curious mind.<br><span class="outline-text">Future</span> <span class="accent-text">cyber</span><br>explorer<span class="accent-text">.</span></h1>
+        <p class="hero-intro reveal">Hi, I'm-<strong>Ryan G. Arias Jr.</strong> — a BSIT student learning to build for the web and exploring the world of cybersecurity, one skill at a time.</p>
+        <div class="hero-actions reveal"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="#about">Get to know me <span>↗</span></a></div>
+        <div class="hero-meta reveal"><span>BASED IN THE PHILIPPINES</span><span class="meta-line"></span><span>LEARNING BY BUILDING</span></div>
+      </div>
+      <div class="profile-asset reveal"><div class="profile-frame"><img src="assets/profile.png" alt="Stylized profile avatar placeholder"></div><p class="profile-caption"><span class="status-dot"></span> STUDENT / FUTURE CYBER EXPLORER</p></div>
+      <div class="hero-art reveal" aria-label="Decorative cybersecurity-inspired illustration">
+        <div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core-card"><div class="core-top"><span>SYS.STATUS</span><span class="live-dot"></span></div><div class="shield"><svg viewBox="0 0 100 112" role="img" aria-label="Shield symbol"><path d="M50 5 L88 20 V49 C88 76 70 95 50 106 C30 95 12 76 12 49 V20 Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M34 55 L45 66 L68 41" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="core-status"><span>EXPLORING</span><span class="status-value">CYBERSECURITY</span></div><div class="terminal-lines"><span>&gt; learn()</span><span>&gt; build()</span><span class="terminal-last">&gt; repeat()<i>_</i></span></div></div>
+        <div class="floating-tag tag-top"><span class="tag-icon">&lt;/&gt;</span> WEB DEVELOPMENT</div><div class="floating-tag tag-bottom"><span class="tag-icon">✳</span> STAY CURIOUS</div><div class="art-index">01 / 04</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="about section section-dark" id="about">
+      <div class="wrap about-grid">
+        <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>Learning the<br>logic behind<br><span class="accent-text">the screen.</span></h2></div>
+        <div class="about-copy reveal"><p class="lead">I'm an Information Technology student who enjoys discovering how digital things work — from the code behind a website to the systems that help keep it secure.</p><p>I'm currently building my foundations in HTML and CSS while developing my interest in cybersecurity. I'm at the beginning of my journey, and I see every lesson and project as a chance to ask better questions, practice new skills, and improve.</p><div class="about-note"><span class="note-symbol">✳</span><p><strong>My mindset</strong><br>Stay curious. Keep practicing. Build responsibly.</p></div></div>
+      </div>
+    </section>
+
+    <section class="skills section wrap" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / WHAT I'M LEARNING</p><h2>Small steps.<br><span class="accent-text">Solid foundations.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-number">01</div><div class="skill-icon code-icon">&lt;/&gt;</div><h3>HTML & CSS</h3><p>Learning to structure web pages and style them with layouts, typography, color, and responsive design.</p><div class="skill-footer"><span>WEB FOUNDATIONS</span><span>↗</span></div></article>
+        <article class="skill-card reveal"><div class="skill-number">02</div><div class="skill-icon cyber-icon">⌘</div><h3>Cybersecurity</h3><p>Exploring security concepts and how systems can be understood, tested, and protected through ethical practice.</p><div class="skill-footer"><span>BEGINNER / EXPLORING</span><span>↗</span></div></article>
+        <article class="skill-card skill-card-note reveal"><div class="note-stars">✳ ✳ ✳</div><p class="note-big">The goal is progress, not perfection.</p><p class="note-small">Learning something new every day.</p><span class="note-arrow">↘</span></article>
+      </div>
+    </section>
+
+    <section class="projects section section-dark" id="projects">
+      <div class="wrap">
+        <div class="projects-heading"><div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Built with a<br><span class="accent-text">learning mindset.</span></h2></div><p class="projects-intro reveal">A featured academic project that reflects my interest in technology and practical problem-solving.</p></div>
+        <article class="project-card reveal">
+          <div class="project-visual"><div class="visual-top"><span>PROJECT / 001</span><span>ACADEMIC</span></div><img class="project-asset-image" src="assets/classlens-dashboard.svg" alt="ClassLens AI dashboard concept illustration"><div class="dashboard-mock" aria-hidden="true"><div class="mock-sidebar"><span class="mock-logo">CL<span>.</span></span><i></i><i></i><i></i><i></i></div><div class="mock-main"><div class="mock-heading"></div><div class="mock-subheading"></div><div class="mock-stats"><span></span><span></span><span></span></div><div class="mock-content"><span></span><span></span></div><div class="mock-bottom"><span></span><span></span></div></div></div><div class="visual-caption">CONCEPT VISUAL / NOT A PRODUCT SCREENSHOT</div></div>
+          <div class="project-info"><p class="project-kicker">CLASS PROJECT · CEBU EASTERN COLLEGE, INC.</p><h3>ClassLens AI</h3><p class="project-subtitle">An Intelligent Laboratory Activity Monitoring and Automated Instructor Assistance System</p><p class="project-description">An academic project focused on exploring how AI-supported tools could assist with laboratory activity monitoring and instructor workflows at Cebu Eastern College, Inc.</p><div class="project-tags"><span>AI CONCEPT</span><span>EDUCATION</span><span>MONITORING</span></div><div class="project-bottom"><span class="project-status"><i></i> ACADEMIC PROJECT</span><span class="project-arrow" aria-hidden="true">↗</span></div></div>
+        </article>
+        <p class="project-footnote">Project description is a summary of the title. Add your actual contribution, project screenshot, and a working project link here when available.</p>
+      </div>
+    </section>
+
+    <section class="contact section wrap" id="contact">
+      <div class="contact-panel reveal"><div class="contact-decoration">LET'S<br>CONNECT<span>.</span></div><div class="contact-content"><p class="eyebrow">04 / CONTACT</p><h2>Have a project<br>or idea in mind?</h2><p>I'm always open to learning, sharing ideas, and connecting with people who are interested in technology.</p><a class="button button-primary" href="mailto:ryangarias.12@gmail.com">Email me <span>↗</span></a></div><div class="contact-email"><span>EMAIL</span><a href="mailto:ryangarias.12@gmail.com">ryangarias.12@gmail.com</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">RYAN ARIAS</span></a><span>DESIGNED WITH CURIOSITY <span class="accent-text">✳</span></span><span>© <span id="year"></span> RYAN G. ARIAS JR.</span></div></footer>
+</body>
+</html>
